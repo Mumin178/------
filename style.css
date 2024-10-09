@@ -1,0 +1,17 @@
+.navigation {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  
+}
+.navigation button {
+    font-size: 18px;
+    color: #ff0070;
+    border: none;
+    background-color: transparent;
+    padding: 0 13px;
+    
+}
+.navigation button:hover {
+    cursor: pointer;
+}
