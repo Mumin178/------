@@ -1,4 +1,15 @@
+@font-face {
+    font-family:"IBMPlexMono-Bold";
+    src: url('/fonts/IBMPlexMono-Bold.ttf');
+    font-weight: 700;
+}
+@font-face {
+    font-family:"IBMPlexMono-Regular";
+    src: url('/fonts/IBMPlexMono-Regular.ttf');
+    font-weight: 400;
+}
 .navigation {
+
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -12,6 +23,26 @@
     padding: 0 13px;
     
 }
+.IsActiveButton{
+    border: 1px solid #ff0070 !important;
+  
+
+}
 .navigation button:hover {
     cursor: pointer;
+}
+
+h1 {
+font-weight: 700;
+line-height: 83%;
+text-shadow: 4px 4px #ff0070;
+color:var(--text-colorlh1);
+margin: 0;
+padding: 0;
+font-size: 157px;
+color: #db00ff;
+font-family: "IBMPlexMono-Bold", serif;
+
+position: absolute;
+
 }
