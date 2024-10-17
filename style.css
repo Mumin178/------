@@ -8,41 +8,158 @@
     src: url('/fonts/IBMPlexMono-Regular.ttf');
     font-weight: 400;
 }
+
+.Header {
+    background-image: url(assets/cover-image-dark.svg); 
+    width: 1024px;
+    height: 768px;
+    background-color: #000028;
+    
+    
+    
+}
+
+.container {
+    margin: 0 auto;
+    position: relative;
+    width: min-content;
+
+}
+
 .navigation {
 
     display: flex;
     justify-content: center;
     gap: 10px;
+    padding-top: 20px;
   
 }
 .navigation button {
-    font-size: 18px;
     color: #ff0070;
     border: none;
     background-color: transparent;
     padding: 0 13px;
     
 }
-.IsActiveButton{
-    border: 1px solid #ff0070 !important;
-  
 
-}
 .navigation button:hover {
     cursor: pointer;
+    border: solid #ff0070;
 }
 
 h1 {
-font-weight: 700;
-line-height: 83%;
-text-shadow: 4px 4px #ff0070;
-color:var(--text-colorlh1);
-margin: 0;
-padding: 0;
-font-size: 157px;
-color: #db00ff;
-font-family: "IBMPlexMono-Bold", serif;
+    font-weight: 700;
+    line-height: 83%;
+    text-shadow: 4px 4px #ff0070;
+    color:var(--text-colorlh1);
+    margin: 0;
+    font-size: 157px;
+    color: #db00ff;
+    font-family: "IBMPlexMono-Bold", sans-serif;
+    position: absolute;
+    top: 319px;
+}
 
-position: absolute;
+.rec {
+    font-family: "IBMPlexMono-Regular", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 139%;
+    text-align: center;
+    color: #ff0070;
+    position: absolute;
+    left: 943px;
+    top: 20px;
+    right: 48px;
+    margin: 0;
 
+}
+.rec::after {
+ background: #ff0070;
+ box-shadow: 0 0 4px 2px #ff0070;
+ border-radius: 100%;
+ width: 9px;
+ height: 9px;
+ content: "";
+ position: absolute;
+ top: 8px;
+ left: 43px;
+ 
+ 
+
+
+}
+    
+
+body {
+    background-color: #000028;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.swerxu {
+    border-top: 1px solid #ff0070;
+    border-right: 1px solid #ff0070;
+    top: 20px;
+    left: 979px;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+}
+
+.snizu {
+    border-bottom: 1px solid #ff0070;
+    border-left: 1px solid #ff0070;
+    top: 723px;
+    left: 20px;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+
+    
+}
+
+.vopros {
+    width: 491px;
+    height: 70px;
+    position: absolute;
+    left: 513px;
+    top: 563px;
+    background: #ff0070;
+    font-family: "IBMPlexMono-bold" , sans-serif;
+    font-size: 18px;
+    line-height: 130%;
+    font-weight: 700;
+    color: #000028;
+}
+
+.Title2 {
+  font-family: "IBMPlexMono-bold" , sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 130%;
+  color: #ff0070; 
+  width: 768px;
+  height: 3682px; 
+
+}
+
+.qoqan {
+  font-family: "IBMPlexMono-bold" , sans-serif;
+  width: 649px;
+  height: 23px;
+  background: #ff0070;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 130%;
+  color: #000028;
+}
+
+.pupa {
+  font-family: "IBMPlexMono-bold" , sans-serif;
+}
+
+main {
+    align-self: center;
 }
